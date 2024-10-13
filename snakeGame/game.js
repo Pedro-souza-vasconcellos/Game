@@ -25,8 +25,6 @@ var score = 0;
 var audio = new Audio();
 var morte = 'audios/pew.mp3';
 var comer = 'audios/eat.mp3';
-var musica = 'audios/musica.mp3';
-var song = new Audio();
 
 window.onload = function () {
     board = document.getElementById('board');
@@ -37,8 +35,6 @@ window.onload = function () {
     colocaComida();
     document.addEventListener('keyup', mudaDirecao);
     setInterval(update, 1000 / 10);
-    song.src = musica;
-    song.play();
 }
 
 function update() {
