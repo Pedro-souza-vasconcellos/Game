@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background: rgb(30, 28, 28);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+#game_over{
+    position: absolute;
+    width: 99%;
+    top: 45%;
+    overflow: hidden;
+    background: white;
+    color: red;
+}
+#playAgain{
+    border: none;
+    cursor: pointer;
+    background: black;
+    color: white;
+    height: 30px;
+    border-radius: 20px;
+    transition: all ease 0.5s;
+    font-size: large;  
+}
+#playAgain:hover{
+    transition: all ease 0.5s;
+    background: rgb(32, 30, 30);
+}
