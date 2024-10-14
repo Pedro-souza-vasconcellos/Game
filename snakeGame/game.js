@@ -39,7 +39,6 @@ window.onload = function () {
 
 function update() {
     if (gameOver) {
-        // window.location.reload();
         return;
     }
     context.fillStyle = 'black';
@@ -74,7 +73,6 @@ function update() {
     // condições de gameOver
     if (cobraX < 0 || cobraX > colunas * blockSize || cobraY < 0 || cobraY > linhas * blockSize) {
         gameOver = true;
-        // alert('Game Over')
         audio.src = morte;
         audio.play()
         div.hidden = false;
@@ -82,7 +80,6 @@ function update() {
     for (var i = 0; i < corpoCobra.length; i++) {
         if (cobraX == corpoCobra[i][0] && cobraY == corpoCobra[i][1]) {
             gameOver = true;
-            // alert('Game Over')
             audio.src = morte;
             audio.play()
             div.hidden = false;
@@ -117,10 +114,9 @@ function colocaComida() {
 document.getElementById('playAgain').addEventListener('click',()=>{
     window.location.reload();
 })
-document.addEventListener('keyUp',function(event){
-    if(event.code == "Enter"){
+document.addEventListener('keyup',(e) =>{
+    if(e.code == "Enter" && gameOver){
         window.location.reload();
-    }
+    }    
 })
-
 
