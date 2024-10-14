@@ -117,3 +117,10 @@ function colocaComida() {
 document.getElementById('playAgain').addEventListener('click',()=>{
     window.location.reload();
 })
+document.addEventListener('keyUp',function(event){
+    if(event.code == "Enter"){
+        window.location.reload();
+    }
+})
+
+
