@@ -91,19 +91,19 @@ function update() {
 }
 
 function mudaDirecao(event) {
-    if (event.code == "ArrowUp" && velocidadeY != 1) {
+    if ((event.code == "ArrowUp" || event.code == "KeyW") && velocidadeY != 1) {
         velocidadeX = 0;
         velocidadeY = -1;
     }
-    else if (event.code == "ArrowDown" && velocidadeY != -1) {
+    else if ((event.code == "ArrowDown" || event.code == "KeyS") && velocidadeY != -1) {
         velocidadeX = 0;
         velocidadeY = 1;
     }
-    else if (event.code == "ArrowLeft" && velocidadeX != 1) {
+    else if ((event.code == "ArrowLeft" || event.code == "KeyA") && velocidadeX != 1) {
         velocidadeX = -1;
         velocidadeY = 0;
     }
-    else if (event.code == "ArrowRight" && velocidadeX != -1) {
+    else if ((event.code == "ArrowRight" || event.code == "KeyD") && velocidadeX != -1) {
         velocidadeX = 1;
         velocidadeY = 0;
     }
