@@ -3,25 +3,5 @@
         "jogo": "Nome do Jogo",
         "jogador": "Nome do Jogador",
         "pontos": "Quantidade de Pontos"
-    },
-    {
-        "jogo" : "cobra",
-        "jogador" : "Pedro Souza",
-        "pontos" : "190"
-    },
-    {
-        "jogo" : "passaro",
-        "jogador" : "Pedro Souza",
-        "pontos" : "60"
-    },
-    {
-        "jogo" : "cobra",
-        "jogador" : "Pedro Souza",
-        "pontos" : "90"
-    },
-    {
-        "jogo" : "cobra",
-        "jogador" : "Pedro Souza",
-        "pontos" : "390"
     }
 ]
