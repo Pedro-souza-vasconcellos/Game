@@ -8,5 +8,10 @@
         "jogo": "teste",
         "jogador": "testeJogador",
         "pontos": "testePontos"
+    },
+    {
+        "jogo": "teste",
+        "jogador": "testeJogador",
+        "pontos": "testePontos"
     }
 ]
