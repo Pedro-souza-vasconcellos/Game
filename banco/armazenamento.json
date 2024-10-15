@@ -3,20 +3,5 @@
         "jogo": "Nome do Jogo",
         "jogador": "Nome do Jogador",
         "pontos": "Quantidade de Pontos"
-    },
-    {
-        "jogo": "teste",
-        "jogador": "testeJogador",
-        "pontos": "testePontos"
-    },
-    {
-        "jogo": "teste",
-        "jogador": "testeJogador",
-        "pontos": "testePontos"
-    },
-    {
-        "jogo": "flappy bird",
-        "jogador": "Pedro Souza",
-        "pontos": "190"
     }
 ]
