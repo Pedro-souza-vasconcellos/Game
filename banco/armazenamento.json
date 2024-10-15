@@ -3,5 +3,10 @@
         "jogo": "Nome do Jogo",
         "jogador": "Nome do Jogador",
         "pontos": "Quantidade de Pontos"
+    },
+    {
+        "jogo" : "cobra",
+        "jogador" : "Pedro Souza",
+        "pontos" : "190"
     }
 ]
