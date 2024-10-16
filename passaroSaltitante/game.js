@@ -1,4 +1,4 @@
-const token = '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';
+const token = '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';
 const repoOwner = 'pedro-souza-vasconcellos';
 const repoName = 'Game';
 const filePath = 'banco/armazenamento.json';
