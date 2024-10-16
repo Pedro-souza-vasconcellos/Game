@@ -3,5 +3,10 @@
         "jogo": "jogoparasalvar",
         "jogador": "jogadorparasalvar",
         "pontos": "123354643"
+    },
+    {
+        "jogo": "cobra",
+        "jogador": "Pedro Souza",
+        "pontos": "190"
     }
 ]
