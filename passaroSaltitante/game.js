@@ -1,3 +1,10 @@
+const token = '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';
+const repoOwner = 'pedro-souza-vasconcellos';
+const repoName = 'Game';
+const filePath = 'banco/armazenamento.json';
+const url = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`;
+
+
 const audio = new Audio();
 audio.src = './audios/point.mp3'
 // board
@@ -198,7 +205,7 @@ async function gravaJogador(newObject) {
     const response = await fetch(url, {
         method: 'GET',
         headers: {
-            'Authorization': `token ${token}`
+            'Authorization': `token ${token}`,
         }
     });
     if (!response.ok) {
@@ -210,11 +217,6 @@ async function gravaJogador(newObject) {
     currentData.push(newObject);
     await updateFile(sha, currentData);
 }
-const token = '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';
-const repoOwner = 'pedro-souza-vasconcellos';
-const repoName = 'Game';
-const filePath = 'banco/armazenamento.json';
-const url = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`;
 async function getFileSha() {
     const response = await fetch(url, {
         method: 'GET',
