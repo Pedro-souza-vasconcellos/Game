@@ -23,5 +23,10 @@
         "jogo": "passaro",
         "jogador": "Pedro Souza",
         "pontos": 5
+    },
+    {
+        "jogo": "passaro",
+        "jogador": "Pedro Souza",
+        "pontos": 4
     }
 ]
